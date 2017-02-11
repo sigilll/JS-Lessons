@@ -6,9 +6,8 @@ var arr = [];
 
 for (var i = 0; i < 30; i++) {
 	arr.push( rand(0,99) );
-	console.log('arr[',i,'] = ', arr[i]);
 }
-
+console.log(arr);
 console.log(" ");
 console.log(" ");
 console.log("Ищем число 55");
